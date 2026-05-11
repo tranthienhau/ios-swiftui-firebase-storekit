@@ -1,0 +1,12 @@
+.DS_Store
+build/
+DerivedData/
+*.xcodeproj/xcuserdata
+*.xcworkspace/xcuserdata
+GoogleService-Info.plist
+.swiftpm
+Packages/
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip

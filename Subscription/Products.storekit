@@ -1,0 +1,71 @@
+{
+  "identifier" : "POC_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "lifetime_001",
+      "localizations" : [
+        {
+          "description" : "One-time unlock, lifetime access.",
+          "displayName" : "Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "app.poc.subscription.lifetime",
+      "referenceName" : "Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "pro_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "monthly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "Pro monthly.", "displayName" : "Pro Monthly", "locale" : "en_US" }
+          ],
+          "productID" : "app.poc.subscription.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "pro_group",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "yearly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            { "description" : "Pro yearly (best value).", "displayName" : "Pro Yearly", "locale" : "en_US" }
+          ],
+          "productID" : "app.poc.subscription.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Pro Yearly",
+          "subscriptionGroupID" : "pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 3, "minor" : 0 }
+}
