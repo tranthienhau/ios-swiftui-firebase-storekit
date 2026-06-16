@@ -2,6 +2,16 @@
 
 Native iOS SwiftUI POC bringing together the three pieces a production subscription app needs: **Firebase Auth** (email/password), **StoreKit 2** subscriptions with proper transaction verification and entitlement management, and a clean architecture you can ship.
 
+## Demo
+
+![Demo](screenshots/demo.gif)
+
+| Sign in | Home | Paywall | Create account | Filled form |
+| --- | --- | --- | --- | --- |
+| ![Sign in](screenshots/01-auth-signin.png) | ![Home](screenshots/02-home-account.png) | ![Paywall](screenshots/03-paywall.png) | ![Create account](screenshots/04-auth-signup.png) | ![Filled form](screenshots/05-auth-filled.png) |
+
+The screenshots are captured from the real app running on an iPhone 17 Pro simulator: the Firebase email sign-in screen, the Home screen with account and subscription sections, the StoreKit paywall, the "Create account" sign-up mode, and the sign-up form filled in with the action button enabled.
+
 ## What it shows
 
 - SwiftUI app structure with `@StateObject` view-models and `@EnvironmentObject` injection.
